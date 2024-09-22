@@ -46,8 +46,15 @@ h1 {
     border: none;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     border-radius: 10px;
+    animation: bounce;
+    animation-duration: 1s;
 }
 
+.animate__animated.animate__bounce {
+    --animate-duration: 1s;
+  }
+
+  
 .containter {
     display: flex;
     justify-content: center;
